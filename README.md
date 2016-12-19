@@ -1,4 +1,4 @@
-# ![GameGirl](Gamegirl/media/GameGirl project image.jpg)
+# ![GameGirl](media/GameGirl%20project%20image.jpg)
 
 The most portable way to play LÖVE, PICO-8, Scratch or your favorite emulated games. Powered by RetroArch!
 
