@@ -1,6 +1,8 @@
-# ![GameGirl]("media/GameGirl project image.png")
+# ![GameGirl](Gamegirl/media/GameGirl project image.jpg)
 
 The most portable way to play LÖVE, PICO-8, Scratch or your favorite emulated games. Powered by RetroArch!
+
+[Join us on our Discord Chat Channel](https://discord.gg/TZ7MZEu)
 
 ## Description
 
@@ -19,7 +21,7 @@ The Lakka distribution powered by RetroArch will be used because of its speed, i
 
 ## Components
 
-* 1 × Raspberry Pi Zero 1 GHz
+* 1 × Raspberry Pi Zero
 * 1 × 2.4" TFT 320x240 (RGB 565 @ 120 FPS)
 * 12 × Soft rubber dome buttons
 * 1 × Speaker
@@ -28,7 +30,9 @@ The Lakka distribution powered by RetroArch will be used because of its speed, i
 * 1 × Battery charger
 * 1 × USB Type-C connector
 
-## Install GameGirl lakka image on SD Card
+## 
+
+### Install GameGirl lakka image on SD Card
 
 [How to write a image to an SD card on Windows & Mac OS](http://trendblog.net/install-raspbian-sd-card-os-x-windows/)
 
@@ -39,9 +43,9 @@ The Lakka distribution powered by RetroArch will be used because of its speed, i
 
 ## Team
 
- <img src="https://cdn.hackaday.io/images/resize/600x600/9860631457995300460.jpg" width="150"> | <img src="https://avatars3.githubusercontent.com/u/442722?" width="150" alt="Jean-André Santoni"> ] | 
+| <img src="https://cdn.hackaday.io/images/resize/600x600/9860631457995300460.jpg" width="120" alt="David Perrenoud"> | <img src="https://avatars3.githubusercontent.com/u/442722?" width="120" alt="Jean-André Santoni"> | 
 ---|---|---
-[David Perrenoud](https://github.com/davidperrenoud) | [Jean-André Santoni](http://www.kivutar.me/) - [Github](https://github.com/Kivutar)
+| [David Perrenoud](https://github.com/davidperrenoud) | [Jean-André Santoni](http://www.kivutar.me/) - [Github](https://github.com/Kivutar) |
 
 
 ## License
