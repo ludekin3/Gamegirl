@@ -1,7 +1,5 @@
 # ![GameGirl]("media/GameGirl project image.png")
 
-[![Build Status](https://github.com/davidperrenoud/Gamegirl.svg?branch=master)](https://github.com/davidperrenoud/Gamegirl) [![Coverage Status](https://github.com/davidperrenoud/Gamegirl/badge.svg?branch=master)](https://github.com/davidperrenoud/Gamegirl?branch=master)
-
 The most portable way to play LÖVE, PICO-8, Scratch or your favorite emulated games. Powered by RetroArch!
 
 ## Description
@@ -41,7 +39,7 @@ The Lakka distribution powered by RetroArch will be used because of its speed, i
 
 ## Team
 
-<img src="https://cdn.hackaday.io/images/resize/600x600/9860631457995300460.jpg" width="100"> ](https://sindresorhus.com)] | [![Jean-André Santoni](https://avatars3.githubusercontent.com/u/442722? width=100 )] | 
+ <img src="https://cdn.hackaday.io/images/resize/600x600/9860631457995300460.jpg" width="150"> | <img src="https://avatars3.githubusercontent.com/u/442722?" width="150" alt="Jean-André Santoni"> ] | 
 ---|---|---
 [David Perrenoud](https://github.com/davidperrenoud) | [Jean-André Santoni](http://www.kivutar.me/) - [Github](https://github.com/Kivutar)
 
