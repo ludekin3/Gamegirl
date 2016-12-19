@@ -30,7 +30,6 @@ The Lakka distribution powered by RetroArch will be used because of its speed, i
 * 1 × Battery charger
 * 1 × USB Type-C connector
 
-
 ## Install GameGirl lakka image on SD Card
 
 [How to write a image to an SD card on Windows & Mac OS](http://trendblog.net/install-raspbian-sd-card-os-x-windows/)
@@ -42,7 +41,7 @@ The Lakka distribution powered by RetroArch will be used because of its speed, i
 
 ## Team
 
-<img src="https://cdn.hackaday.io/images/resize/600x600/9860631457995300460.jpg" width="250"> ](https://sindresorhus.com)] | [![Jean-André Santoni](https://avatars3.githubusercontent.com/u/442722? width=250 )] | 
+<img src="https://cdn.hackaday.io/images/resize/600x600/9860631457995300460.jpg" width="100"> ](https://sindresorhus.com)] | [![Jean-André Santoni](https://avatars3.githubusercontent.com/u/442722? width=100 )] | 
 ---|---|---
 [David Perrenoud](https://github.com/davidperrenoud) | [Jean-André Santoni](http://www.kivutar.me/) - [Github](https://github.com/Kivutar)
 
