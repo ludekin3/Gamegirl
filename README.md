@@ -1,4 +1,5 @@
-# <img alt="GameGirl" src"https://raw.githubusercontent.com/davidperrenoud/Gamegirl/master/media/GameGirl%20project%20image.jpg" width="500">
+# GameGirl
+<img alt="GameGirl" src"https://raw.githubusercontent.com/davidperrenoud/Gamegirl/master/media/GameGirl%20project%20image.jpg" width="500">
 
 The most portable way to play LÖVE, PICO-8, Scratch or your favorite emulated games. Powered by RetroArch!
 
@@ -30,12 +31,31 @@ The Lakka distribution powered by RetroArch will be used because of its speed, i
 * 1 × Battery charger
 * 1 × USB Type-C connector
 
-## 
+## Build your own!
+
+### Assemble the hardware
+
+#### Parts list for prototype v0.2
+
+<img src="" width="300" alt"Front"> | <img src="" width="300" alt"back">
+
+* GameGirl v0.2 on [OSHPark](https://oshpark.com/shared_projects/jp0aq0YM)
+* BOM list on [mouser]() and [digikey]()
+* 2.4" TFT LCD screen from [buydisplays.com]()
+* 15-16mm speaker
+* 800-1200mAh battery with JST-PH connector (size restraints ...)
 
 ### Install GameGirl lakka image on SD Card
 
 [How to write a image to an SD card on Windows & Mac OS](http://trendblog.net/install-raspbian-sd-card-os-x-windows/)
 
+### First boot
+
+...
+
+### Installing your games
+
+...
 
 ## Project Task Tracker
 
@@ -44,8 +64,8 @@ The Lakka distribution powered by RetroArch will be used because of its speed, i
 ## Team
 
 | <img src="https://cdn.hackaday.io/images/resize/600x600/9860631457995300460.jpg" width="120" alt="David Perrenoud"> | <img src="https://avatars3.githubusercontent.com/u/442722?" width="120" alt="Jean-André Santoni"> | 
----|---|---
-| [David Perrenoud](https://github.com/davidperrenoud) | [Jean-André Santoni](http://www.kivutar.me/) - [Github](https://github.com/Kivutar) |
+---|---|---|---
+| [David Perrenoud](https://github.com/davidperrenoud) | [Jean-André Santoni](http://www.kivutar.me/) - [Github](https://github.com/Kivutar) | [Rodney Yates](https://github.com/zybeon)
 
 
 ## License
