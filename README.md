@@ -53,6 +53,7 @@ The Lakka distribution powered by RetroArch will be used because of its speed, i
 ### Install GameGirl lakka image on SD Card
 
 GameGirl Raspberry Pi Zero images
+* [Nightly Builds](http://sources.lakka.tv/nightly/Gamegirl.arm/)
 * [build r21684 (November 29, 2016)](http://static.kivutar.me/Lakka-Gamegirl.arm-devel-20161129161645-r21684-g895e996.img.gz)
 * [build r21570 (August 23, 2016)](http://static.kivutar.me/Lakka-Gamegirl.arm-devel-20160823060147-r21570-g1cacbe2.img.gz)
 
