@@ -59,7 +59,7 @@ Gamegirl Raspberry Pi Zero images:
 Instructions:
 * [How to write a image to an SD card on Windows & Mac OS](http://trendblog.net/install-raspbian-sd-card-os-x-windows/)
 * Insert the SD card into a computer. Navigate to the config.txt file in the root directory. Change `display_rotate=1` to `display_rotate=3`
-* If your are able to mount the ext4 partition of the SD card add the Gamegirl [controller configuration file](https://github.com/davidperrenoud/Gamegirl/blob/master/Gamegirl_Controller.cfg) to `joypads/udev/`
+* If your are able to mount the ext4 partition of the SD card add the Gamegirl [controller configuration file](https://github.com/davidperrenoud/Gamegirl/blob/master/Software/Gamegirl_Controller.cfg) to `joypads/udev/`
 
 ### First boot
 
