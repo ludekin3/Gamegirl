@@ -1,9 +1,9 @@
-# GameGirl
-<img alt="GameGirl" src="https://raw.githubusercontent.com/davidperrenoud/Gamegirl/master/media/GameGirl%20project%20image.jpg" width="500">
+# Gamegirl
+<img alt="Gamegirl" src="https://raw.githubusercontent.com/davidperrenoud/Gamegirl/master/media/Gamegirl%20project%20image.jpg" width="500">
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=z5BJ5ywMKEQ
 " target="_blank"><img src="http://img.youtube.com/vi/z5BJ5ywMKEQ/0.jpg" 
-alt="GameGirl Prototype v0.2" width="240" height="180" border="10" /></a>
+alt="Gamegirl Prototype v0.2" width="240" height="180" border="10" /></a>
 
 The most portable way to play LÖVE, PICO-8, Scratch or your favorite emulated games. Powered by RetroArch!
 
@@ -44,28 +44,28 @@ The Lakka distribution powered by RetroArch will be used because of its speed, i
 
 <img src="https://github.com/davidperrenoud/Gamegirl/blob/master/media/Prototype%20v0.2%20Front.jpg" width="300" alt"Front"> | <img src="https://github.com/davidperrenoud/Gamegirl/blob/master/media/Prototype%20v0.2%20Back.jpg" width="300" alt"back">
 
-* GameGirl v0.2 on [OSHPark](https://oshpark.com/shared_projects/jp0aq0YM)
+* Gamegirl v0.2 on [OSHPark](https://oshpark.com/shared_projects/jp0aq0YM)
 * (To Do) BOM list on [mouser (TO DO)]() and [digikey (TO DO)]()
 * 2.4" TFT LCD screen from [buydisplays.com](http://www.buydisplay.com/default/color-2-4-inch-tft-lcd-module-display-touch-panel-240x320-dot-serial-spi)
 * 15-16mm speaker
 * 800-1200mAh battery with JST-PH connector (size restraints TBD)
 
-### Install GameGirl lakka image on SD Card
+### Install Gamegirl lakka image on SD Card
 
-GameGirl Raspberry Pi Zero images
+Gamegirl Raspberry Pi Zero images
 * [Nightly Builds](http://sources.lakka.tv/nightly/Gamegirl.arm/)
 * [build r21684 (November 29, 2016)](http://static.kivutar.me/Lakka-Gamegirl.arm-devel-20161129161645-r21684-g895e996.img.gz)
 * [build r21570 (August 23, 2016)](http://static.kivutar.me/Lakka-Gamegirl.arm-devel-20160823060147-r21570-g1cacbe2.img.gz)
 
 * [How to write a image to an SD card on Windows & Mac OS](http://trendblog.net/install-raspbian-sd-card-os-x-windows/)
 * Insert the SD card into a computer. Navigate to the config.txt file in the root directory. Change `display_rotate=1` to `display_rotate=3`
-* If your are able to mount the ext4 partition of the SD card add the GameGirl [controller configuration file](https://github.com/davidperrenoud/Gamegirl/blob/master/Gamegirl_Controller.cfg) to `joypads/udev/`.
+* If your are able to mount the ext4 partition of the SD card add the Gamegirl [controller configuration file](https://github.com/davidperrenoud/Gamegirl/blob/master/Gamegirl_Controller.cfg) to `joypads/udev/`.
 
 ### First boot
 
 During first boot the screen will stay blank(white). After 3-5 min power off the device then power back on. The screen should change the background to black then display the main menue after about 30sec depending on SD card speeds.
 
-If you didn't add the GameGirl config file the buttons will be switched around. Right is down, down is right, Start is A(Accept). You will have to navigate to 'Settings/Input/Player' and select 'Bind all'
+If you didn't add the Gamegirl config file the buttons will be switched around. Right is down, down is right, Start is A(Accept). You will have to navigate to 'Settings/Input/Player' and select 'Bind all'
 
 ### Installing your games
 
