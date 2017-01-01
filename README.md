@@ -1,6 +1,6 @@
 # Gamegirl
 
-<img alt="Gamegirl" src="https://raw.githubusercontent.com/davidperrenoud/Gamegirl/master/media/Gamegirl%20project%20image.jpg" width="500">
+<img alt="Gamegirl" src="https://raw.githubusercontent.com/davidperrenoud/Gamegirl/master/Media/Gamegirl%20project%20image.jpg" width="500">
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=z5BJ5ywMKEQ
 " target="_blank"><img src="http://img.youtube.com/vi/z5BJ5ywMKEQ/0.jpg" 
@@ -41,7 +41,7 @@ The Lakka distribution powered by RetroArch will be used because of its speed, i
 
 ### Parts list for the prototype v0.2
 
-<img src="https://github.com/davidperrenoud/Gamegirl/blob/master/media/Prototype%20v0.2%20Front.jpg" width="300" alt"Front"> | <img src="https://github.com/davidperrenoud/Gamegirl/blob/master/media/Prototype%20v0.2%20Back.jpg" width="300" alt"back">
+<img src="https://github.com/davidperrenoud/Gamegirl/blob/master/Media/Prototype%20v0.2%20Front.jpg" width="300" alt"Front"> | <img src="https://github.com/davidperrenoud/Gamegirl/blob/master/Media/Prototype%20v0.2%20Back.jpg" width="300" alt"back">
 
 * Gamegirl v0.2 on [OSHPark](https://oshpark.com/shared_projects/jp0aq0YM)
 * (To Do) BOM list on [mouser (TO DO)]() and [digikey (TO DO)]()
