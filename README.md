@@ -63,7 +63,9 @@ Instructions:
 
 ### First boot
 
-During first boot the screen will stay blank (white). After 3-5 min power off the device then power back on. The screen should change the background to black then display the main menue after about 30sec depending on SD card speeds.
+The first boot should last 1.5 minutes and the subsequent boots should last less than 30 seconds, depending on your SD card speeds.
+
+If on first boot the screen stays blank (white) for more than 3-5 minutes, power off the device then power back on. The screen should change the background to black then display the main menue after about 30 seconds.
 
 If you didn't add the Gamegirl config file the buttons will be switched around. Right is down, down is right, Start is A(Accept). You will have to navigate to 'Settings/Input/Player' and select 'Bind all'
 
