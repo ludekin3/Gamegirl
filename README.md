@@ -1,12 +1,12 @@
 # Gamegirl
 
+The most portable way to play LÖVE, PICO-8, Scratch or your favorite emulated games. Powered by RetroArch!
+
 <img alt="Gamegirl" src="https://raw.githubusercontent.com/davidperrenoud/Gamegirl/master/Media/Gamegirl%20project%20image.jpg" width="500">
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=z5BJ5ywMKEQ
 " target="_blank"><img src="http://img.youtube.com/vi/z5BJ5ywMKEQ/0.jpg" 
 alt="Gamegirl Prototype v0.2" width="240" height="180" border="10" /></a>
-
-The most portable way to play LÖVE, PICO-8, Scratch or your favorite emulated games. Powered by RetroArch!
 
 [Join us on our Discord Chat Channel](https://discord.gg/TZ7MZEu)
 
@@ -52,22 +52,16 @@ The Lakka distribution powered by RetroArch will be used because of its speed, i
 ### Install the Lakka image on an SD Card
 
 Gamegirl Raspberry Pi Zero images:
-* [Nightly Builds](http://sources.lakka.tv/nightly/Gamegirl.arm/)
+* [Nightly Builds](http://sources.lakka.tv/nightly/Gamegirl.arm-8.0/)
 * [Build r21684 (November 29, 2016)](http://static.kivutar.me/Lakka-Gamegirl.arm-devel-20161129161645-r21684-g895e996.img.gz)
 * [Build r21570 (August 23, 2016)](http://static.kivutar.me/Lakka-Gamegirl.arm-devel-20160823060147-r21570-g1cacbe2.img.gz)
 
 Instructions:
 * [How to write a image to an SD card on Windows & Mac OS](http://trendblog.net/install-raspbian-sd-card-os-x-windows/)
-* Insert the SD card into a computer. Navigate to the config.txt file in the root directory. Change `display_rotate=1` to `display_rotate=3`
-* If your are able to mount the ext4 partition of the SD card add the Gamegirl [controller configuration file](https://github.com/davidperrenoud/Gamegirl/blob/master/Software/Gamegirl_Controller.cfg) to `joypads/udev/`
 
 ### First boot
 
-The first boot should last 1.5 minutes and the subsequent boots should last less than 30 seconds, depending on your SD card speeds.
-
-If on first boot the screen stays blank (white) for more than 3-5 minutes, power off the device then power back on. The screen should change the background to black then display the main menue after about 30 seconds.
-
-If you didn't add the Gamegirl config file the buttons will be switched around. Right is down, down is right, Start is A(Accept). You will have to navigate to 'Settings/Input/Player' and select 'Bind all'
+As of nightly build 20170110005640-r25097, the system will take longer to boot as it is expanding the SD card partition and running other first boot operations. Subsequent boots will be faster.
 
 ### Installing your games
 
