@@ -38,7 +38,7 @@ There are multiple prototypes under development:
 * **v0.3** is a major redesign based around the C.H.I.P. instead of the Raspberry Pi Zero
 
 ## Prototype v0.2 (_released_)
-<img src="https://github.com/davidperrenoud/Gamegirl/blob/master/Media/Prototype%20v0.2%20Front.jpg" width="300" alt"v0.2 Front"> | <img src="https://github.com/davidperrenoud/Gamegirl/blob/master/Media/Prototype%20v0.2%20Back.jpg" width="300" alt"v0.2 Back">
+<img src="./Media/Prototype%20v0.2%20Front.jpg" width="300" alt"v0.2 Front"> | <img src="./Media/Prototype%20v0.2%20Back.jpg" width="300" alt"v0.2 Back">
 
 What you will need:
 * The Gamegirl v0.2 PCB from [OSHPark](https://oshpark.com/shared_projects/jp0aq0YM)
@@ -55,19 +55,19 @@ In order to simplify the sourcing of the parts, we tried to get all PCB componen
 #### Minimal assembly variant
 In this assembly variant you will get a working prototype without battery/charging and audio functionality. You can use it only while the Raspberry Pi Zero is connected to a USB power supply!
 
-| Item	            | Description	                                                                                                        | PCB Reference                           | Distributor   | Part Number       | Quantity  | Unit price |
-| ----------------- | --------------------------------------------------------------------------------------------------------------------- | ----------------------------------------| ------------- | ----------------- | ---------:| ----------:|
-| PCB               | [Gamegirl v0.2](https://oshpark.com/shared_projects/jp0aq0YM)                                                         |                                         | OSHPark       |                   |           |    50.55 $ |
-| Raspberry Pi ZERO | Raspberry Pi Zero - Version 1.3                                                                                       |                                         | adafruit	  |                   |         1 |     5.00 $ |
+| Item	            | Description	                                                                                                        | PCB Reference                                      | Distributor   | Part Number       | Quantity  | Unit price |
+| ----------------- | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- | ------------- | ----------------- | ---------:| ----------:|
+| PCB               | [Gamegirl v0.2](https://oshpark.com/shared_projects/jp0aq0YM)                                                         |                                                    | OSHPark       |                   |           |    50.55 $ |
+| Raspberry Pi ZERO | Raspberry Pi Zero - Version 1.3                                                                                       |                                                    | adafruit      |                   |         1 |     5.00 $ |
 | 8bitdo ZERO       | Soft rubber pads and buttons                                                                                          |
-| ER-TFT024-3       | [Display](http://www.buydisplay.com/default/color-2-4-inch-tft-lcd-module-display-touch-panel-240x320-dot-serial-spi)	|                                         | buydisplay    |                   |         1 |     6.99 $ |
-| ZIF connector	    | 50 Pin 0.50mm Pitch ZIF Connector (Order as option together with the display!)                                        | U1                                      | buydisplay    |                   |         1 |     0.29 $ |
-| Diodes            | DIODE GEN PURP 75V 150MA SOD323                                                                                       | D1;D2;D3;D4;D6;D7;D8;D9;D10;D11;D12;D13 | digikey       | 1N4148WS-FDICT-ND |        12 |     0.15 € |
-| Resistor 330      | RES SMD 330 OHM 1% 1/8W 0805                                                                                          | R6;R7;R8;R9                             | digikey       | 311-330CRCT-ND    |        10 |     0.02 € |
-| Resistor 1k       | RES SMD 1K OHM 1% 1/8W 0805                                                                                           | R1;R2;R3;R4                             | digikey       | 311-1.00KCRCT-ND  |        10 |     0.02 € |
-| Resistor 10k      | RES SMD 10K OHM 0.1% 1/8W 0805                                                                                        | R12                                     | digikey       | YAG2131CT-ND      |         2 |     0.36 € |
-| Q_PMOS_GSD        | MOSFET P-CH 20V 3.7A SOT-23                                                                                           | Q1                                      | digikey       | IRLML6402PBFCT-ND |         1 |     0.38 € |
-| Dome Switch       | SWITCH TACTILE SPST-NO 0.05A 15V                                                                                      | SW6;SW7                                 | digikey       | EG4622CT-ND       |         2 |     0.18 € |
+| ER-TFT024-3       | [Display](http://www.buydisplay.com/default/color-2-4-inch-tft-lcd-module-display-touch-panel-240x320-dot-serial-spi)	|                                                    | buydisplay    |                   |         1 |     6.99 $ |
+| ZIF connector	    | 50 Pin 0.50mm Pitch ZIF Connector (Order as option together with the display!)                                        | U1                                                 | buydisplay    |                   |         1 |     0.29 $ |
+| Diodes            | DIODE GEN PURP 75V 150MA SOD323                                                                                       | D1; D2; D3; D4; D6; D7; D8; D9; D10; D11; D12; D13 | digikey       | 1N4148WS-FDICT-ND |        12 |     0.15 € |
+| Resistor 330      | RES SMD 330 OHM 1% 1/8W 0805                                                                                          | R6; R7; R8; R9                                     | digikey       | 311-330CRCT-ND    |        10 |     0.02 € |
+| Resistor 1k       | RES SMD 1K OHM 1% 1/8W 0805                                                                                           | R1; R2; R3; R4                                     | digikey       | 311-1.00KCRCT-ND  |        10 |     0.02 € |
+| Resistor 10k      | RES SMD 10K OHM 0.1% 1/8W 0805                                                                                        | R12                                                | digikey       | YAG2131CT-ND      |         2 |     0.36 € |
+| Q_PMOS_GSD        | MOSFET P-CH 20V 3.7A SOT-23                                                                                           | Q1                                                 | digikey       | IRLML6402PBFCT-ND |         1 |     0.38 € |
+| Dome Switch       | SWITCH TACTILE SPST-NO 0.05A 15V                                                                                      | SW6; SW7                                           | digikey       | EG4622CT-ND       |         2 |     0.18 € |
 
 #### Full assembly variant
 This assembly variant requires some circuit modifications to get audio output!
@@ -77,7 +77,7 @@ This assembly variant requires some circuit modifications to get audio output!
 (work in progress)
 
 ## Prototype v0.2.1 (_work in progress_)
-<img src="https://github.com/davidperrenoud/Gamegirl/blob/master/Media/Design_Proto_v0.2.1_front.png" width="300" alt"Proto v0.2.1 Front"> | <img src="https://github.com/davidperrenoud/Gamegirl/blob/master/Media/Design_Proto_v0.2.1_back.png" width="300" alt"Proto v0.2.1 Back">
+<img src="./Media/Design_Proto_v0.2.1_front.png" width="300" alt"Proto v0.2.1 Front"> | <img src="./Media/Design_Proto_v0.2.1_back.png" width="300" alt"Proto v0.2.1 Back">
 
 Improvements over v0.2:
 * Hand soldering friendlier layout
@@ -124,9 +124,9 @@ How-to [on lakka.tv](http://www.lakka.tv/get/linux/rpi/install/first-boot/games/
 | --- | --- | --- |
 | [David Perrenoud](https://github.com/davidperrenoud) | [Jean-André Santoni](http://www.kivutar.me/) - [Github](https://github.com/Kivutar) | [Rodney Yates](https://github.com/zybeon)
 
-[Jean-André] from France is the software guy of this project. He is the main Lakka developer and a top 5 RetroArch contributor.
-[David] from Switzerland is the hardware guy.
-[Rodney] from US is the PCB designer.
+- [Jean-André] from France is the software guy of this project. He is the main Lakka developer and a top 5 RetroArch contributor.
+- [David] from Switzerland is the hardware guy.
+- [Rodney] from US is the PCB designer.
 
 ## Contributing
 [Join us on our Discord Chat Channel!](https://discord.gg/TZ7MZEu)
