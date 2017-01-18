@@ -12,16 +12,16 @@ alt="Gamegirl Prototype v0.2" width="240" height="180" border="10" /></a>
 
 # Table of Contents
 
-* [Description](# Description)
-* [Components](# Components)
-* [Build your own!](# Build your own!)
-* [Setup](# Setup)
-* [Team](# Team)
+* [Description](#Description)
+* [Components](#Components)
+* [Build your own!](#Build your own!)
+* [Setup](#Setup)
+* [Team](#Team)
 
 # Description
 We develop a very small, affordable and portable gaming console with a 320x240 display at 120 FPS run by a Raspberry Pi Zero.
 
-Project Goals:
+**Project Goals:**
 * Hardware accelerated display
 * Custom software (Lakka / RetroArch)
 * High quality case and buttons
@@ -39,11 +39,10 @@ Gamegirl runs on the Lakka distribution powered by RetroArch because of its spee
 * 1 × 800+ mAh battery
 
 # Build your own!
-There are two prototypes:
-* **v0.2** is the current development platform with multiple working prototypes in the field
-* **v0.2.1** incorporates multiple improvements and fixes (go for it as soon as it is available)
 
 ## Prototype v0.2 (_released_)
+**v0.2** is the current development platform with multiple working prototypes in the field. It works but it's not perfect, yet!
+
 <img src="./Media/Prototype%20v0.2%20Front.jpg" width="300" alt"v0.2 Front"> | <img src="./Media/Prototype%20v0.2%20Back.jpg" width="300" alt"v0.2 Back">
 
 ### Gamegirl v0.2 - Schematic
@@ -61,12 +60,14 @@ This assembly variant requires some circuit modifications to get audio output!
 
 ### Gamegirl Case v0.2
 A 3D printable case design is currently in work.
-<img src="./Media/Case_Front_back.png" width="300" alt"v0.2 Front">
+<img src="./Media/Case_Front_back.PNG" width="300" alt"Case front design model">
 
 ## Prototype v0.2.1 (_work in progress_)
-<img src="./Media/Design_Proto_v0.2.1_front.png" width="300" alt"Proto v0.2.1 Front"> | <img src="./Media/Design_Proto_v0.2.1_back.png" width="300" alt"Proto v0.2.1 Back">
+**v0.2.1** incorporates multiple improvements and fixes over v0.2. If you do not have a v0.2, you should wait for this!
 
-Improvements over v0.2:
+| <img src="./Media/Design_Proto_v0.2.1_front.png" width="300" alt"Proto v0.2.1 Front"> | <img src="./Media/Design_Proto_v0.2.1_back.png" width="300" alt"Proto v0.2.1 Back"> |
+
+**Improvements over v0.2:**
 * Hand soldering friendlier layout
 * Fixed mono audio circuit
 * Fixed backlight function
@@ -82,12 +83,12 @@ Improvements over v0.2:
 # Setup
 ## Install the latest Lakka image on an SD Card
 
-Gamegirl Raspberry Pi Zero images:
+**Gamegirl Raspberry Pi Zero images:**
 * [Nightly Builds](http://sources.lakka.tv/nightly/Gamegirl.arm-8.0/)
 * [Build r21684 (November 29, 2016)](http://static.kivutar.me/Lakka-Gamegirl.arm-devel-20161129161645-r21684-g895e996.img.gz)
 * [Build r21570 (August 23, 2016)](http://static.kivutar.me/Lakka-Gamegirl.arm-devel-20160823060147-r21570-g1cacbe2.img.gz)
 
-Instructions:
+**Instructions:**
 * [How to write a image to an SD card on Windows & Mac OS](http://trendblog.net/install-raspbian-sd-card-os-x-windows/)
 
 ## First boot
