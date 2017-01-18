@@ -2,7 +2,9 @@
 
 The most portable way to play LÖVE, PICO-8, Scratch or your favorite emulated games. Powered by RetroArch!
 
-<img alt="Gamegirl" src="./Media/Gamegirl%20project%20image.jpg" width="500" style="float: center;">
+<p align="center">
+    <img alt="Gamegirl" src="./Media/Gamegirl%20project%20image.jpg" width="500" style="float: center;">
+</p>
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=z5BJ5ywMKEQ
 " target="_blank"><img src="http://img.youtube.com/vi/z5BJ5ywMKEQ/0.jpg" 
@@ -12,11 +14,11 @@ alt="Gamegirl Prototype v0.2" width="240" height="180" border="10" /></a>
 
 # Table of Contents
 
-* [Description](#Description)
-* [Components](#Components)
-* [Build your own!](#Build your own!)
-* [Setup](#Setup)
-* [Team](#Team)
+* [Description](#description)
+* [Components](#components)
+* [Build your own!](#build-your-own)
+* [Setup](#setup)
+* [Team](#team)
 
 # Description
 We develop a very small, affordable and portable gaming console with a 320x240 display at 120 FPS run by a Raspberry Pi Zero.
@@ -43,7 +45,8 @@ Gamegirl runs on the Lakka distribution powered by RetroArch because of its spee
 ## Prototype v0.2 (_released_)
 **v0.2** is the current development platform with multiple working prototypes in the field. It works but it's not perfect, yet!
 
-<img src="./Media/Prototype%20v0.2%20Front.jpg" width="300" alt"v0.2 Front"> | <img src="./Media/Prototype%20v0.2%20Back.jpg" width="300" alt"v0.2 Back">
+| <img src="./Media/Prototype%20v0.2%20Front.jpg" width="300" alt"v0.2 Front"> | <img src="./Media/Prototype%20v0.2%20Back.jpg" width="300" alt"v0.2 Back"> |
+| --- | --- |
 
 ### Gamegirl v0.2 - Schematic
 * [Gamegirl_v0.2_Schematic.pdf](Electronics/Gamegirl_v0.2_Schematic.pdf)
@@ -60,12 +63,14 @@ This assembly variant requires some circuit modifications to get audio output!
 
 ### Gamegirl Case v0.2
 A 3D printable case design is currently in work.
+
 <img src="./Media/Case_Front_back.PNG" width="300" alt"Case front design model">
 
 ## Prototype v0.2.1 (_work in progress_)
 **v0.2.1** incorporates multiple improvements and fixes over v0.2. If you do not have a v0.2, you should wait for this!
 
 | <img src="./Media/Design_Proto_v0.2.1_front.png" width="300" alt"Proto v0.2.1 Front"> | <img src="./Media/Design_Proto_v0.2.1_back.png" width="300" alt"Proto v0.2.1 Back"> |
+| --- | --- |
 
 **Improvements over v0.2:**
 * Hand soldering friendlier layout
