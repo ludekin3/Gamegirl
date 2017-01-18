@@ -3,14 +3,8 @@
 The most portable way to play LÖVE, PICO-8, Scratch or your favorite emulated games. Powered by RetroArch!
 
 <p align="center">
-    <img alt="Gamegirl" src="./Media/Gamegirl%20project%20image.jpg" width="500" style="float: center;">
+    <img alt="Gamegirl" src="./Media/Gamegirl%20project%20image.jpg" width="500">
 </p>
-
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=z5BJ5ywMKEQ
-" target="_blank"><img src="http://img.youtube.com/vi/z5BJ5ywMKEQ/0.jpg" 
-alt="Gamegirl Prototype v0.2" width="240" height="180" border="10" /></a>
-
-[Join us on our Discord Chat Channel!](https://discord.gg/TZ7MZEu)
 
 # Table of Contents
 
@@ -22,14 +16,18 @@ alt="Gamegirl Prototype v0.2" width="240" height="180" border="10" /></a>
 
 # Description
 We develop a very small, affordable and portable gaming console with a 320x240 display at 120 FPS run by a Raspberry Pi Zero.
+Gamegirl runs on the Lakka distribution powered by RetroArch because of its speed, fast power-on, instant power-off and its potential to run many retro and hipster-retro games (LÖVE, PICO-8, Scratch and emulators).
+[Join us on our Discord Chat Channel!](https://discord.gg/TZ7MZEu)
+
+<p align="center">
+    <a href="http://www.youtube.com/watch?feature=player_embedded&v=z5BJ5ywMKEQ" target="_blank"><img src="http://img.youtube.com/vi/z5BJ5ywMKEQ/0.jpg" alt="Gamegirl Prototype v0.2" width="240" height="180" border="10" /></a>
+</p>
 
 **Project Goals:**
 * Hardware accelerated display
 * Custom software (Lakka / RetroArch)
 * High quality case and buttons
 * Small form factor
-
-Gamegirl runs on the Lakka distribution powered by RetroArch because of its speed, fast power-on, instant power-off and its potential to run many retro and hipster-retro games (LÖVE, PICO-8, Scratch and emulators).
 
 # Components
 * 1 x Gamegirl custom PCB (audio, power, etc.)
