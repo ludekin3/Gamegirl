@@ -17,7 +17,8 @@ The most portable way to play LÖVE, PICO-8, Scratch or your favorite emulated g
 # Description
 We develop a very small, affordable and portable gaming console with a 320x240 display at 120 FPS run by a Raspberry Pi Zero.
 Gamegirl runs on the Lakka distribution powered by RetroArch because of its speed, fast power-on, instant power-off and its potential to run many retro and hipster-retro games (LÖVE, PICO-8, Scratch and emulators).
-[Join us on our Discord Chat Channel!](https://discord.gg/TZ7MZEu)
+
+[**Join us on our Discord Chat Channel!**](https://discord.gg/TZ7MZEu)
 
 <p align="center">
     <a href="http://www.youtube.com/watch?feature=player_embedded&v=z5BJ5ywMKEQ" target="_blank"><img src="http://img.youtube.com/vi/z5BJ5ywMKEQ/0.jpg" alt="Gamegirl Prototype v0.2" width="240" height="180" border="10" /></a>
@@ -43,21 +44,22 @@ Gamegirl runs on the Lakka distribution powered by RetroArch because of its spee
 ## Prototype v0.2 (_released_)
 **v0.2** is the current development platform with multiple working prototypes in the field. It works but it's not perfect, yet!
 
-| <img src="./Media/Prototype%20v0.2%20Front.jpg" width="300" alt"v0.2 Front"> | <img src="./Media/Prototype%20v0.2%20Back.jpg" width="300" alt"v0.2 Back"> |
-| --- | --- |
+<img alt"Prototype v0.2 Front" src="./Media/Prototype%20v0.2%20Front.jpg" width="300">
+<img alt"Prototype v0.2 Back" src="./Media/Prototype%20v0.2%20Back.jpg" width="300">
 
 ### Gamegirl v0.2 - Schematic
 * [Gamegirl_v0.2_Schematic.pdf](Electronics/Gamegirl_v0.2_Schematic.pdf)
 
 ### Gamegirl v0.2 - Bill Of Materials (BOM)
+* [Octopart - Gamegirl v0.2 BOM](https://octopart.com/bom-tool/0X5BikOH)
 
 #### Minimal assembly variant
 In this assembly variant you will get a working prototype without battery/charging and audio functionality. You can use it only while the Raspberry Pi Zero is connected to a USB power supply!
-* [Gamegirl_v0.2-BOM_minimal.pdf](Electronics/Gamegirl_v0.2-BOM_minimal.pdf)
+* [Gamegirl v0.2 BOM - minimal assembly variant](Electronics/Gamegirl_v0.2_BOM_minimal.pdf)
 
 #### Full assembly variant
 This assembly variant requires some circuit modifications to get audio output!
-* [Gamegirl_v0.2-BOM.pdf](Electronics/Gamegirl_v0.2-BOM.pdf)
+* [Gamegirl v0.2 BOM - full assembly variant](Electronics/Gamegirl_v0.2_BOM.pdf)
 
 ### Gamegirl Case v0.2
 A 3D printable case design is currently in work.
@@ -67,8 +69,8 @@ A 3D printable case design is currently in work.
 ## Prototype v0.2.1 (_work in progress_)
 **v0.2.1** incorporates multiple improvements and fixes over v0.2. If you do not have a v0.2, you should wait for this!
 
-| <img src="./Media/Design_Proto_v0.2.1_front.png" width="300" alt"Proto v0.2.1 Front"> | <img src="./Media/Design_Proto_v0.2.1_back.png" width="300" alt"Proto v0.2.1 Back"> |
-| --- | --- |
+<img alt"Prototype v0.2.1 Front" src="./Media/Design_Proto_v0.2.1_front.png" width="300">
+<img alt"Prototype v0.2.1 Back" src="./Media/Design_Proto_v0.2.1_back.png" width="300">
 
 **Improvements over v0.2:**
 * Hand soldering friendlier layout
