@@ -69,8 +69,7 @@ A 3D printable case design is currently in work.
 ## Prototype v0.2.1 (_work in progress_)
 **v0.2.1** incorporates multiple improvements and fixes over v0.2. If you do not have a v0.2, you should wait for this!
 
-<img alt"Prototype v0.2.1 Front" src="./Media/Design_Proto_v0.2.1_front.png" width="300">
-<img alt"Prototype v0.2.1 Back" src="./Media/Design_Proto_v0.2.1_back.png" width="300">
+<img alt"Prototype v0.2.1 Front" src="./Media/WIP_prototype_v0.2.1.png" width="600">
 
 **Improvements over v0.2:**
 * Hand soldering friendlier layout
