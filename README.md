@@ -67,7 +67,7 @@ A 3D printable case design is currently in work.
 
 <img src="./Media/Case_Front_back.PNG" width="300" alt="Case front design model">
 
-## Prototype v0.2.1 (_work in progress_)
+## Prototype v0.2.1 (Awaiting Prototype board)
 **v0.2.1** incorporates multiple improvements and fixes over v0.2. If you do not have a v0.2, you should wait for this!
 
 <img alt="Prototype v0.2.1 Front" src="./Media/WIP%20prototype%20v0.2.1.png" width="600">
@@ -78,7 +78,8 @@ A 3D printable case design is currently in work.
 * Fixed backlight function
 * Button placement and labeling to reflect standard Nintendo layout
 * MCP23S17 GPIO Expander replaced Charlieplexed buttons
-* Ability to add common inexpensive WiFi adpater directly to the board
+* Labeled most 
+* Ability to add common inexpensive WiFi adpater directly to the board (depreciated due to Zero W)
 * Replaced battery charger and 5v booster ICs with a 3-in-1 IC, ETA9740
 ** Rpi Zero will run directly from battery (Rpi stability has been tested down to 3.0V)
 ** Increased charging current from 500mA to 2A or 3A
@@ -87,9 +88,11 @@ A 3D printable case design is currently in work.
 * Added multiple power decoupling capacitors for better power filtering
 * Added Safe Soft-Shutdown circuit
 * Replaced latching switch with momentary switch
+* (Optional) Low Battery shutdown
+* (Optional) Low Noise LDO for audio amp (Must cut 3.3v trace when using)
 
 ### Gamegirl v0.2.1 - Bill Of Materials (BOM)
-(work in progress)
+[BOM](./Media/Gamegirl_v0.2.1_BOM.csv)
 
 ### Gamegirl Case v0.2.1
 (work in progress)
