@@ -45,8 +45,8 @@ Gamegirl runs on the Lakka distribution powered by RetroArch because of its spee
 ## Prototype v0.2 (_released_)
 **v0.2** is the current development platform with multiple working prototypes in the field. It works but it's not perfect, yet!
 
-<img alt"Prototype v0.2 Front" src="./Media/Prototype%20v0.2%20Front.jpg" width="300">
-<img alt"Prototype v0.2 Back" src="./Media/Prototype%20v0.2%20Back.jpg" width="300">
+<img alt="Prototype v0.2 Front" src="./Media/Prototype%20v0.2%20Front.jpg" width="300">
+<img alt="Prototype v0.2 Back" src="./Media/Prototype%20v0.2%20Back.jpg" width="300">
 
 ### Gamegirl v0.2 - Schematic
 * [Gamegirl_v0.2_Schematic.pdf](Electronics/Gamegirl_v0.2_Schematic.pdf)
@@ -65,12 +65,12 @@ This assembly variant requires some circuit modifications to get audio output!
 ### Gamegirl Case v0.2
 A 3D printable case design is currently in work.
 
-<img src="./Media/Case_Front_back.PNG" width="300" alt"Case front design model">
+<img src="./Media/Case_Front_back.PNG" width="300" alt="Case front design model">
 
 ## Prototype v0.2.1 (_work in progress_)
 **v0.2.1** incorporates multiple improvements and fixes over v0.2. If you do not have a v0.2, you should wait for this!
 
-<img alt"Prototype v0.2.1 Front" src="./Media/WIP%20prototype%20v0.2.1.png" width="600">
+<img alt="Prototype v0.2.1 Front" src="./Media/WIP%20prototype%20v0.2.1.png" width="600">
 
 **Improvements over v0.2:**
 * Friendlier hand solderable layout (All component footprints have been expanded for soldering without a heatgun)
