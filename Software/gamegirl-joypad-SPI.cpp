@@ -103,7 +103,8 @@ int main() {
 
   //Enables WiFi by default
   pinMode(_WiFi_EN,OUTPUT);
-  digitalWrite(_WiFi_EN,1);
+  digitalWrite(_WiFi_EN,1);//Enables power to WiFi module
+  system("connmanctl enable wifi");//Enables WiFi connections
     
   //Sets up Audio, already on by default
   pinMode(_AMP_EN,OUTPUT);
@@ -246,7 +247,11 @@ int main() {
     if (selec_button == 0 && toggle_timeout > 119){ //mode button | Sel+L1 WiFi toggle | Sel+R1 = Amp toggle | 
       if (l1_button == 0 ){
         WiFi_status = !WiFi_status;
-        digitalWrite(_WiFi_EN, WiFi_status);
+        digitalWrite(_WiFi_EN, WiFi_status); //For Zero v1.3 using WiFi Module
+        if(WiFi_status == 1)//For Zero W WiFi control
+            system("connmanctl enable wifi");
+        else
+            system("connmanctl disable wifi");
         toggle_timeout = 0;
       }
       else if(r1_button == 0){
