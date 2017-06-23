@@ -274,7 +274,7 @@ int main() {
         system("echo -n \"SHUTDOWN\" | nc -u -w1 127.0.0.1 55355");
     }
     else
-      LDO_delay = 0;
+      LBO_delay = 0;
 
     if (powerswitch == 0) {
       shdn_delay++;
