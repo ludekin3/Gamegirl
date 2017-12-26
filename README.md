@@ -49,18 +49,18 @@ Gamegirl runs on the Lakka distribution powered by RetroArch because of its spee
 <img alt="Prototype v0.2 Back" src="./Media/Prototype%20v0.2%20Back.jpg" width="300">
 
 ### Gamegirl v0.2 - Schematic
-* [Gamegirl_v0.2_Schematic.pdf](Electronics v0.2/Gamegirl_v0.2_Schematic.pdf)
+* [Gamegirl_v0.2_Schematic.pdf](./Electronics%20v0.2/Gamegirl_v0.2_Schematic.pdf)
 
 ### Gamegirl v0.2 - Bill Of Materials (BOM)
 * [Octopart - Gamegirl v0.2 BOM](https://octopart.com/bom-tool/0X5BikOH)
 
 #### Minimal assembly variant
 In this assembly variant you will get a working prototype without battery/charging and audio functionality. You can use it only while the Raspberry Pi Zero is connected to a USB power supply!
-* [Gamegirl v0.2 BOM - minimal assembly variant](Electronics v0.2/Gamegirl_v0.2_BOM_minimal.pdf)
+* [Gamegirl v0.2 BOM - minimal assembly variant](./Electronics%20v0.2/Gamegirl_v0.2_BOM_minimal.pdf)
 
 #### Full assembly variant
 This assembly variant requires some circuit modifications to get audio output!
-* [Gamegirl v0.2 BOM - full assembly variant](Electronics v0.2/Gamegirl_v0.2_BOM.pdf)
+* [Gamegirl v0.2 BOM - full assembly variant](./Electronics%20v0.2/Gamegirl_v0.2_BOM.pdf)
 
 ### Gamegirl Case v0.2
 A 3D printable case design is currently in work.
@@ -92,7 +92,7 @@ A 3D printable case design is currently in work.
 * (Optional) Low Noise LDO for audio amp (Must cut 3.3v trace when using)
 
 ### Gamegirl v0.2.1 - Bill Of Materials (BOM)
-[BOM](./Electronics v0.2.1/Gamegirl_v0.2.1_BOM.csv)
+[BOM](./Electronics%20v0.2.1/Gamegirl_v0.2.1_BOM.csv)
 
 ### Gamegirl Case v0.2.1
 (work in progress)
