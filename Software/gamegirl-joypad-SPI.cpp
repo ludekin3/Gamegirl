@@ -98,8 +98,8 @@ int main() {
   pullUpDnControl(_SHDN,PUD_UP);
   
   //Sets Chip Select pin of LCD high disabling the SPI connection
-  pinMode(_SS1,OUTPUT);
-  pullUpDnControl(_SS1,PUD_UP);
+  //pinMode(_SS1,OUTPUT);
+  //pullUpDnControl(_SS1,PUD_UP);
 
   //Enables WiFi by default
   pinMode(_WiFi_EN,OUTPUT);
