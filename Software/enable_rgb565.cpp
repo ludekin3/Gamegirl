@@ -44,13 +44,14 @@ int _red5 = 22; // GPIO 22
 int _red6 = 23; // GPIO 23
 int _red7 = 24; // GPIO 24
 
-int _dc = 25; // GPIO 25
-int _rst = 27; // GPIO 27
-int _mosi = 10; // GPIO 10
-int _miso = 9; // GPIO 9
-int _sclk = 11; // GPIO 11
-int _backlight = 18; // GPIO 18
-int _audio = 19;
+int _dc = 25; // GPIO 25    | LCD DC
+int _rst = 27; // GPIO 27   | LCD Reset
+int _mosi = 10; // GPIO 10  | SPI MOSI
+int _miso = 9; // GPIO 9    | SPI MISO
+int _sclk = 11; // GPIO 11  | SPI Clock
+int _lcd_cs = 26; //GPIO26  | LCD SPI Chip Select
+int _mcp_cs = 18; // GPIO 18| MCP23S17 Chip Select
+int _audio = 19; //         | RPi PWM Audio
 
 int _channel = 1;
 int _speed = 80000000;//80000000;//500000;//80000000;
@@ -81,10 +82,14 @@ void begin() {
   pinMode(_rst, OUTPUT);
   digitalWrite(_rst, LOW);
   
-	pinMode(_dc, OUTPUT);
+  pinMode(_dc, OUTPUT);
 
   // Initialise SPI
-	wiringPiSPISetup(_channel, _speed);
+  pinMode(_lcd_cs, OUTPUT);
+  pinMode(_mcp_cs, OUTPUT);
+  digitalWrite(_lcd_cs, LOW);
+  digitalWrite(_mcp_cs, HIGH);
+  wiringPiSPISetup(_channel, _speed);
   
   // Initialise DPI pins
   const int ALT2 = 0b110;
@@ -288,8 +293,8 @@ void begin() {
   // Initialise backlight
 //  pinMode(_backlight, PWM_OUTPUT);
 //  pwmWrite(_backlight, 1023);
-  pinMode(_backlight, OUTPUT);
-  digitalWrite(_backlight, HIGH);
+  //pinMode(_backlight, OUTPUT);
+  //digitalWrite(_backlight, HIGH);
   
   /*
   pwmSetMode  (PWM_MODE_BAL) ;	// Pi default mode
@@ -310,6 +315,9 @@ void begin() {
   // Initialise audio
 //  const int ALT5 = 0b010;
 //  pinModeAlt(_audio, ALT5);
+	
+  // Turn off LCD SPI bus
+  digitalWrite(_lcd_cs, HIGH);
 }
 
 int main() {
