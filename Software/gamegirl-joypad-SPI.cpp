@@ -9,6 +9,10 @@
 #include <wiringPi.h>
 #include <iostream>
 #include <mcp23s17.h>
+#include <time.h>
+
+//Delay 2 seconds
+Sleep(2);
 
 #define die(str, args...) do { \
     perror(str); \
@@ -19,7 +23,9 @@
 
 using namespace std;
 
-int _SHDN = 25; // GPIO25 - Power switch
+//int _SHDN = 25; // GPIO25 - Power switch
+int _mcp_cs = 18; // GPIO18 - MCP23S17 SPI Chip Select
+int _lcd_cs = 26; // GPIO26 - LCD SPI Chip Select
 
 /* MCP23S17 PINOUT   Pin 1(GPB0) start at GPIO 100 GPB0 = 100 | GPA0 = 108
  *   LBO | 1 (100) - GPB0     GPA7 - (115) 28 |  R1
@@ -79,8 +85,12 @@ int main() {
 
   // Initialize GPIO
   wiringPiSetupGpio();
-  
+    
   // Initialize MCP23S17
+  pinMode(_lcd_cs, OUTPUT);
+  pinMode(_mcp_cs, OUTPUT);
+  digitalWrite(_lcd_cs, HIGH);
+  digitalWrite(_mcp_cs, LOW);
   mcp23s17Setup(BASE, 1, 0) ;
   
   //Set button input pins on MCP23S17 to INPUT with PullUps enabled
