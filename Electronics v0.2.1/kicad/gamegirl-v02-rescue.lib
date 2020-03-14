@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3
+EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
 # Antenna_Shield-RESCUE-gamegirl-v02
@@ -12,11 +12,11 @@ DRAW
 A -1 -73 32 -882 1242 0 1 0 N 0 -105 -20 -45
 A 1 -73 32 -918 558 0 1 0 N 0 -105 20 -45
 C 30 -75 7 0 1 0 F
-P 2 0 1 0  0 -100  0 0 N
-P 2 0 1 10  0 200  0 -150 N
-P 2 0 1 0  30 -75  100 -75 N
-P 2 0 1 0  100 -100  100 -75 N
-P 3 0 1 10  50 200  0 0  -50 200 N
+P 2 0 1 0 0 -100 0 0 N
+P 2 0 1 10 0 200 0 -150 N
+P 2 0 1 0 30 -75 100 -75 N
+P 2 0 1 0 100 -100 100 -75 N
+P 3 0 1 10 50 200 0 0 -50 200 N
 X A 1 0 -200 100 U 50 50 1 1 I
 X Shield 2 100 -200 100 U 50 50 1 1 I
 ENDDRAW
